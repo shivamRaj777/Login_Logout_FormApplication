@@ -1,0 +1,204 @@
+#G{
+    width:25px;
+}
+#fb{
+    width: 10px;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(220, 220, 220,0.2);
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    min-width:500px;
+    height: 100%;
+}
+.bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh ;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+#backG{
+    width:350px;
+    height: 350px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 18px;
+}
+.icons{
+    width: 15px;
+}
+.login-card{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid rgb(128, 128, 128,0.3) ;
+    margin-left: 140px;
+}
+#guglee,#facebookee{
+    border:1px solid rgb(128, 128, 128,0.3);
+    outline: none;
+    width: 300px;
+    border-radius: 8px;
+    padding: 4px;
+    height: 30px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128,0.2);
+    cursor: pointer;
+}
+#guglee{
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#facebookee{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 310px;
+    height: fit-content;
+}
+.input-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 15px;
+    height:15px;
+}
+.input-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 15px;
+    justify-content:first baseline;
+    align-items: flex-start;
+}
+input{
+   border: none;
+   background: transparent;
+   font-size: 12px;
+   color: #333;
+   outline: none;
+   width: 100%;
+   font-family: 'Poppins',sans-serif;
+   font-weight: 600;
+}
+
+label{
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    display: block;
+}
+/*divider for span with horizontal line aise hai --------or--------*/
+.divider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+hr{
+    width: 126px;
+}
+.divider span{
+    font-size: 12px; /* Adjust text size */
+    color: #000; /* Adjust text color */
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.auth-container{
+    width: 310px;
+}
+.auth-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+  
+.remember-me input[type="checkbox"]{
+    margin-right: 4px;
+    accent-color: #298bc3; /* Modern browsers for checkbox color */
+}
+  
+.forgot-password{
+    font-size: 14px;
+    color: #5b87f5;
+    text-decoration: none;
+}
+#rm{
+    font-size: 10px;
+} 
+.forgot-password:hover{
+    text-decoration: underline;
+}
+#loginBtn{
+    width: 310px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color:#5f3cf2;
+    color: white;
+    margin-top: 15px;
+}
+.register{
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-family: 'Poppins',sans-serif;
+}
+h3{
+    font-size: 2rem;
+    margin-right:122px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 0; 
+    margin-bottom: 5px;
+}
+#unstops{
+    color: #5f3cf2;
+    font-size: 2.1rem;
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif;
+    margin-right:168px;
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: #e74c3c; /* Red color for error messages */
+    font-size: 8px;
+    margin-top: 36px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
